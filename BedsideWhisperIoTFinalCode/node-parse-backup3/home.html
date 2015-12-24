@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+		<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>	
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<title>Bedside Whispers</title>
+
+	</head>
+	
+	<body>	
+		<div id="title"> 
+			Bedside Whispers
+		</div>	
+		
+		<div id="guyimage" > 
+			
+		</div>
+		
+		<div id="girlimage" > 
+	
+		</div>
+		
+		<!-- BOYFRIEND INFO BOX -->
+		<div id="form" name="myForm" onclick="fromParse()" method="post">
+			<input id= "fromParse" type="submit" value="Hear his whisper">
+		</div>
+		
+		<div id="dateOfRecordingBox1"></div>
+		
+		<div id="soundBox"></div>
+		
+		<!-- GIRLFRIEND INFO BOX -->
+		
+		<div id="G_form" name="myForm" onclick="fromParse2()" method="post">
+			<input id= "fromParse2" type="submit" value="Hear her whisper">
+		</div>
+		
+		<div id="dateOfRecordingBox2"></div>
+		
+		<div id="soundBox2"></div>
+		
+
+	</body>
+
+		<script src="http://192.168.1.116:8000/socket.io/socket.io.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+		<script src="js/sketch.js"></script>
+
+</html>
